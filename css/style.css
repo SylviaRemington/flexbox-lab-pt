@@ -13,6 +13,7 @@
     padding: 8px 16px;
     display: flex;
     justify-content: space-between;
+    
   }
 
   #destinations {
@@ -20,12 +21,19 @@
     display: flex;
     /* justify-content: space-around; */
     align-self: center;
+    /* outline: 10px gold; */
 
   }
+
+  /* #destinations p {
+    display: flex;
+    justify-content: space-between;
+  } */
   
   #actions {
     /* This is the nav bar right side content with sign up verbiage */
     display:flex;
+    align-self: center;
 
   }
 
