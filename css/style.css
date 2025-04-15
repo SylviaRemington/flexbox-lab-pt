@@ -43,6 +43,18 @@ section {
     padding: 24px 72px;
 }
 
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* #headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
 h1,
 h2 {
     text-align: center;
@@ -83,21 +95,21 @@ nav button {
     height: 40px; /*changed height to look more like finished product*/
 }
 
+/* .card {  THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+    display: flex;
+} */
+
+/* article { THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+    display: flex;
+    align-items: left;
+} */
+
 .img-placeholder {
     width: 355px;
     height: 270px;
     background-color: gray;
     border-radius: 8px;
 }
-
-/* .card {
-    display: flex;
-} */
-
-/* article {
-    display: flex;
-    align-items: left;
-} */
 
 .card-footer {
     font-size: 14px;
