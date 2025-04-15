@@ -81,6 +81,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    /* I think I need to use this area to move the team button up */
 }
 
 nav button {
