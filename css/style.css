@@ -105,6 +105,7 @@ nav button {
     width: 30%; /*Just for this exercise doing 3 per line; however, I noticed the live website uses responsive design. Gonna try and add that.*/
 }
 
+/*Note to self: NEED TO MAKE THIS PART BELOW RESPONSIVE DESIGN SO IT WORKS ON ALL PLATFORMS.*/
 .card-footer {
     display: flex;
     justify-content: space-between;
@@ -115,10 +116,11 @@ nav button {
     /* border: 1px solid red; added a border to see what was going on with it not centering */
 }
 
+/*This code below from the assignment is making it so the card-footer won't align; 
+thus commenting it out.*/
 /* 
-.card-footer * { This code from the assignment is making it so the card-footer won't align; thus commenting it out.
+.card-footer { 
     margin-top: 8px;
-
 } */
 
 #subnav {
