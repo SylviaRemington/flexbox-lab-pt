@@ -137,13 +137,21 @@ nav button {
     margin: 10px;
 }
 
-
-
-
-
-/*Notes regarding bottom portion of page*/
-/* .card {  THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+.card {
     display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*Just realized the following regarding below notes: The .card is only useful for <div class="img-placeholder"></div>
+<div class="card-footer"> but not for all the img-placeholders. So have to go to parent to main to access all cards.*/
+/*Notes regarding bottom portion of page - This part below was first attempt*/
+/* THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+.card {
+    display: flex;
+    justify-content: space-around;
+}
 } */
 
 /* article { THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
