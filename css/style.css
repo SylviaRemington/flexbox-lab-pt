@@ -83,7 +83,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 32px; /*Looked in dev tools for 'answer website' to see gap space. In clicking on the space between the grey img, 
+    it looks like that website had 32px. Thus, changed to that. (Haven't done this for everything on the site. But now, I 
+    know how to do this. Yay. */
 }
 
 nav button {
