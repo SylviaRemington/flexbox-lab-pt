@@ -104,7 +104,6 @@ nav button {
     border-radius: 8px;
 }
 
-/*Note to self: NEED TO MAKE THIS PART BELOW RESPONSIVE DESIGN SO IT WORKS ON ALL PLATFORMS.*/
 .card-footer {
     display: flex;
     justify-content: space-between;
