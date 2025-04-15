@@ -110,13 +110,15 @@ nav button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0;
     /* border: 1px solid red; added a border to see what was going on with it not centering */
 }
 
-.card-footer * {
+/* 
+.card-footer * { This code from the assignment is making it so the card-footer won't align; thus commenting it out.
     margin-top: 8px;
 
-}
+} */
 
 #subnav {
     padding: 32px 72px 0;
