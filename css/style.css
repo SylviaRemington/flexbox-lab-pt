@@ -78,6 +78,9 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 nav button {
@@ -137,12 +140,17 @@ nav button {
     margin: 10px;
 }
 
-.card {
+
+
+
+
+
+
+
+/* .card {
     display: flex;
     justify-content: space-around;
-}
-
-
+} */
 
 /*Just realized the following regarding below notes: The .card is only useful for <div class="img-placeholder"></div>
 <div class="card-footer"> but not for all the img-placeholders. So have to go to parent to main to access all cards.*/
