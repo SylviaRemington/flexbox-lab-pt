@@ -19,14 +19,14 @@ nav {
 }
 
 #destinations {
-    /* This is the nav bar left side content with "My Web Design Site..." */
+    /* TOP SECTION - This is the nav bar left side content with "My Web Design Site..." */
     display: flex;
     align-items: center;
     /* outline: 10px gold; */
 }
 
 #actions {
-    /* This is the nav bar right side content with "Sign In Sign Up" verbiage */
+    /* TOP SECTION - This is the nav bar right side content with "Sign In Sign Up" verbiage */
     display: flex;
     align-items: center;
 }
@@ -44,6 +44,7 @@ section {
 }
 
 #hero {
+    /*MIDDLE PART OF THE DESIGN - STARTING WITH WORLD'S BEST WEB DESIGNS*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -90,15 +91,6 @@ nav button {
     height: 40px; /*changed height to look more like finished product*/
 }
 
-/* .card {  THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
-    display: flex;
-} */
-
-/* article { THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
-    display: flex;
-    align-items: left;
-} */
-
 .img-placeholder {
     width: 355px;
     height: 270px;
@@ -129,6 +121,7 @@ nav button {
 }
 
 #trending {
+    /*MIDDLE PART OF THE DESIGN - TRENDING SEARCHES AND CONTENT*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -136,6 +129,7 @@ nav button {
 }
 
 #trending p {
+    /*MIDDLE PART OF THE DESIGN - TRENDING SEARCHES AND CONTENT*/
     background-color: white;
     color: black;
     border-radius: 50px;
@@ -143,3 +137,15 @@ nav button {
     margin: 10px;
 }
 
+
+
+
+/*Notes regarding bottom portion of page*/
+/* .card {  THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+    display: flex;
+} */
+
+/* article { THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
+    display: flex;
+    align-items: left;
+} */
