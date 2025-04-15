@@ -109,13 +109,15 @@ nav button {
 .card-footer {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    /* align-items: center; Originally put this here; however, after troubleshooting with Alara 
+    realized it was doing something funky with spacing because of this. This was trying to center itself from main. 
+    Fixed main and took this part out. */
     font-size: 14px;
 }
 
 .card-footer * { 
     margin-top: 8px;
-    /* margin-bottom: 0; */
+    /* margin-bottom: 0; Originally put in. After troubleshooting, realized didn't need this after fixed main.*/
 }
 
 
@@ -154,16 +156,18 @@ nav button {
 
 
 
-
+/* Notes below for my own reference later to see what I was initially trying: */
 
 /* .card {
     display: flex;
     justify-content: space-around;
 } */
 
-/*Just realized the following regarding below notes: The .card is only useful for <div class="img-placeholder"></div>
-<div class="card-footer"> but not for all the img-placeholders. So have to go to parent to main to access all cards.*/
-/*Notes regarding bottom portion of page - This part below was first attempt*/
+/*Notes on why the above and below code didn't work; and commenting it out so I can re-read in the future to understand my process of coding and what didn't work & why didn't work: 
+The .card is only useful for <div class="img-placeholder"></div> <div class="card-footer"> but not for all the img-placeholders. 
+So have to go to parent to main to access all cards... I initially thought to access 'card' because it is the parent of the 'img placeholder',
+but nothing happened when I did that so I had to take a different tack*/
+
 /* THIS IS THE PARENT OF IMG PLACEHOLDER & TRYING TO USE FLEXBOX BUT NOTHING IS HAPPENING.
 .card {
     display: flex;
