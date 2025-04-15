@@ -106,11 +106,12 @@ nav button {
 }
 
 .card-footer {
-    font-size: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0;
+    font-size: 14px;
+    padding: 0 0px; /*small horizontal padding*/
+    margin-top: 0px; /*small gap under image*/
     /* border: 1px solid red; added a border to see what was going on with it not centering */
 }
 
