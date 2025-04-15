@@ -101,6 +101,10 @@ nav button {
     border-radius: 8px;
 }
 
+.card {
+    width: 30%; /*Just for this exercise doing 3 per line; however, I noticed the live website uses responsive design. Gonna try and add that.*/
+}
+
 .card-footer {
     font-size: 14px;
 }
