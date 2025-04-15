@@ -14,26 +14,27 @@ nav {
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0 0; /*Curved top corners of webpage. It looked like it had that in the finished product.*/
-    /* border-start-end-radius: 15px;
-    border-end-start-radius: 15px; */
 }
 
 #destinations {
     /* TOP SECTION - This is the nav bar left side content with "My Web Design Site..." */
     display: flex;
     align-items: center;
-    /* outline: 10px gold; */
+    gap: 20px;
+    /* outline: 10px gold; Initially, I was trying to see an outline of this area. 
+    Didn't realize until now that I can do the same thing in dev tools with the button on the far left that has the arrow*/
 }
 
 #actions {
     /* TOP SECTION - This is the nav bar right side content with "Sign In Sign Up" verbiage */
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 p {
     margin: 0;
-    padding: 10px;
+    /* padding: 10px; I added this initially; but don't actually need it in my code. After troubleshooting bugs with Alara, took this out. Not necessary*/
 }
 
 section {
@@ -66,6 +67,7 @@ h2 {
     margin-bottom: 0;
 }
 
+
 input {
     height: 58px;
     width: 80%;
@@ -80,8 +82,8 @@ main {
     padding: 32px 72px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /* I think I need to use this area to move the team button up */
+    justify-content: center;
+    gap: 30px;
 }
 
 nav button {
@@ -102,27 +104,19 @@ nav button {
     border-radius: 8px;
 }
 
-.card {
-    width: 30%; /*Just for this exercise doing 3 per line; however, I noticed the live website uses responsive design. Gonna try and add that.*/
-}
-
 /*Note to self: NEED TO MAKE THIS PART BELOW RESPONSIVE DESIGN SO IT WORKS ON ALL PLATFORMS.*/
 .card-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     font-size: 14px;
-    padding: 0 0px; /*small horizontal padding*/
-    margin-top: 0px; /*small gap under image*/
-    /* border: 1px solid red; added a border to see what was going on with it not centering */
 }
 
-/*This code below from the assignment is making it so the card-footer won't align; 
-thus commenting it out.*/
-/* 
-.card-footer { 
+.card-footer * { 
     margin-top: 8px;
-} */
+    /* margin-bottom: 0; */
+}
+
 
 #subnav {
     padding: 32px 72px 0;
@@ -154,7 +148,6 @@ thus commenting it out.*/
     padding: 6px 15px;
     margin: 10px;
 }
-
 
 
 
